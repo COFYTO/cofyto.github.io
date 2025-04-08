@@ -9,7 +9,7 @@ const observer = new IntersectionObserver(entries => {
 }, {
     threshold: 0.3
 });
-const palabras = ["Programador 👨‍💻", "Diseñador 🎨", "Creativo 💡", " Cofyto 🧒🤵👨‍🎓📚🎓"];
+const palabras = ["Programador 👨‍💻", "Diseñador 🎨", "Creativo 💡", "Ingeniero en TIC's 🎓", "Estudiante de la Maestría de DevOps 📚","Cofyto 🤵"];
 let indice = 0;
 
 function cambiarTexto() {
