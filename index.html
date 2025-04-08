@@ -1,24 +1,86 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="css/style.css"> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>COFYTO</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
+
 <body>
-    <div class="perfil">
-        <div class="card">
-            <h1>CESAR ANTONIO HERNÁNDEZ ONOFRE</h1>
-            <h2>Desarrollador .NET</h2>
-            <h3>
-                Ingeniero en Tecnologías de la Información y la Comunicación<br>
-                Estudiante: Maestría en Desarrollo y Operaciones de Software (DevOps)
-            </h3>
-        </div>
-        <div class="cardimg">
-            <img src="img/Foto.jpg" alt="Foto perfil">
-        </div>
-    </div>
+    <header>
+        <nav>
+            <ul class="menu">
+                <li><a href="#acerca">Acerca de mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#experiencias">Experiencias</a></li>
+                <li><a href="#edu">Educación</a></li>
+            </ul>
+            <div class="social-icons">
+                <a href="https://github.com/" target="_blank"><img src="img/github.svg" alt="GitHub" title="GitHub"></a>
+                <a href="https://linkedin.com/" target="_blank"><img src="img/linkedin.svg" alt="LinkedIn" title="LinkedIn"></a>
+                <a href="https://wa.me/" target="_blank"><img src="img/whatsapp.svg" alt="WhatsApp" title="WhatsApp"></a>
+                <a href="cv.pdf" target="_blank"><img src="img/cv.svg" alt="Descarga CV" title="Descarga CV"></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="yo" class="seccion perfil">
+            <div class="card">
+                <h1>CESAR ANTONIO HERNÁNDEZ ONOFRE</h1>
+                <h2>Desarrollador .NET</h2><br>
+
+                <h3>
+                    Soy <span class="soyTxt" id="changeTxt">Programador 👨‍💻</span>
+                </h3>
+            </div>
+            <div class="cardimg">
+                <img src="img/Foto.jpg" alt="Foto perfil">
+            </div>
+        </section>
+
+        <section id="acerca" class="seccion seccion-horizontal">
+            <div class="contenido-texto animar slide-left">
+                <h1>Acerca de mí</h1>
+                <p>Yo.</p>
+            </div>
+            <div class="imagen-contenedor animar slide-right">
+                <img src="img/mango1.jpg" alt="info" class="imagen" />
+                <div class="leyenda">Info</div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="secciona">
+            <img src="img/mango2.jpg" alt="Info" class="animar imagen" />
+            <h1 class="animar">Habilidades</h1>
+            <p class="animar">Info.</p>
+        </section>
+
+        <section id="proyectos" class="secciona">
+            <img src="img/mango3.jpg" alt="Info" class="animar imagen" />
+            <h1 class="animar">Proyectos</h1>
+            <p class="animar">Info.</p>
+        </section>
+
+        <section id="experiencias" class="secciona">
+            <img src="img/mango4.jpg" alt="Info" class="animar imagen" />
+            <h1 class="animar">Experiencias</h1>
+            <p class="animar">Info.</p>
+        </section>
+
+        <section id="edu" class="secciona">
+            <img src="img/mango4.jpg" alt="Info" class="animar imagen" />
+            <h1 class="animar">Educación</h1>
+            <p class="animar">Info.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Cesar Antonio Hernández Onofre <img src="img/mexico.svg" alt="Bandera de México" class="bandera"></p>
+    </footer>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
